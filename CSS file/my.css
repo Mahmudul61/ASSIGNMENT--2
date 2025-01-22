@@ -59,9 +59,14 @@
 
 @media screen and (max-width:576px) {
     .heading{
-        max-width: 1280px;
-        min-height: 50px;
-        border: 1px solid orange;
+        /* max-width: 1280px;
+        min-height: 50px; */
+        padding: 5px;
+        border-bottom: 1px solid orange;
+        
+    }
+    hr{
+        display: flex;
     }
     .heading-list , .btn-1{
         display: none;
@@ -391,8 +396,7 @@ text-align: center;
     
     }
     .btn-11{
-        margin-left: 160px;
-       
+        margin-left: 120px;
     }
     .main-2{
         overflow: hidden;
@@ -457,7 +461,7 @@ margin-top: 5px;
     
     .footer-contant{
         flex-direction: column;
-        
+        margin-left: -100px;
     }
     .sub-footer-contant-2, .sub-footer-contant-3{
         margin-left: -100px;
