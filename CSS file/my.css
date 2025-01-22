@@ -1,3 +1,4 @@
+
 /* header , section-1 */
 .heading{
     max-width: 1280px;
@@ -137,7 +138,7 @@
 /* section-3 */
 .main-1{
     max-width: 1280px;
-    min-height: 400px;
+    min-height: 500px;
     border: 1px solid black;
     border: none;
     padding: 15px;
@@ -157,8 +158,8 @@
     margin-left: 70px;
 }
 .sub-main-continer-1{
-    max-width: 300px;
-    min-height: 200px;
+    max-width: 75%;
+    max-height: 75%;
     border: 1px solid black;
     border: none;
     border-radius: 10px;
@@ -175,8 +176,8 @@
     color:#5eacfa ;
 }
 .sub-main-continer-2{
-    max-width: 300px;
-    min-height: 200px;
+    max-height: 75%;
+    max-width: 75%;
     border: 1px solid black;
     border: none;
     border-radius: 10px;
@@ -194,8 +195,8 @@
     color:orange ;
 }
 .sub-main-continer-3{
-    max-width: 300px;
-    min-height: 200px;
+    max-width: 75%;
+    max-height: 75%;
     border: 1px solid black;
     border: none;
     border-radius: 10px;
@@ -269,7 +270,7 @@
 }
 .sub-main-continer-5{
     width: 319px;
-    height: 590px;
+    height: 540px;
     border: 1px solid black;
     border: none;
     border-radius: 10px;
@@ -279,10 +280,16 @@
 .sub-main-continer-5 img{
     border-radius: 10px;
 }
+.sub-main-continer-5-h2{
+margin-left: 10PX;
+text-align: center;
+}
 .sub-main-continer-5-p{
     opacity: 0.2px;
     font-weight: 500;
     color: rgb(60, 59, 59);
+    margin-top: 35px;
+    text-align: center;
 }
 .sub-main-continer-5-h2, .sub-main-continer-6-h3, .sub-main-continer-5-p, .btn-6, .btn-7, .btn-8, .btn-9, .btn-10 {
     margin-left: 15px;
@@ -315,8 +322,8 @@
     background-color: rgb(83, 83, 250);
 }
 .sub-main-continer-6{
-    width: 250px;
-    height: 280px;
+    max-width: 253px;
+    max-height: 280px;
     border: 1px solid black;
     border: none;
     margin-top: 5px;
@@ -341,6 +348,9 @@
 @media screen and (max-width:576px) {
     .sub-main-continer-5{
         display: none;
+    }
+    .sub-main-continer-6{
+       
     }
     .main-continer-3{
         grid-template-columns: repeat(2,1fr);
